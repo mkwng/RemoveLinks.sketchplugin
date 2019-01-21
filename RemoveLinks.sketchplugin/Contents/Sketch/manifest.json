@@ -1,0 +1,16 @@
+{
+    "name" : "Remove Links",
+    "identifier" : "com.mkwng.removelinks",
+    "version" : "1.0",
+    "description" : "Shortcut for removing all prototype links.",
+    "authorEmail" : "hello@mkwng.com",
+    "author" : "Michael Wang",
+    "commands" : [
+    {
+      "script" : "removelinks.js",
+      "handler" : "onRun",
+      "name" : "Remove All Links",
+      "identifier" : "removelinks"
+    }
+  ]
+}
